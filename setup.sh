@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 set -e
-TARGET_DIR="/sdcard/Download/mytool"
+TARGET_DIR="/sdcard/Download/SelfBot"
 mkdir -p "$TARGET_DIR"
 BASE_RAW="https://raw.githubusercontent.com/YutaDev123/SelfBot-Updated/main"
 curl -fsSL "$BASE_RAW/obf-paymentupdated.py" -o "$TARGET_DIR/obf-paymentupdated.py"
